@@ -211,7 +211,7 @@ For more information, see [stack::get\_container (STL/CLR)](/cpp/dotnet/stack-st
       </Docs>
     </Member>
     <Member MemberName="top">
-      <MemberSignature Language="C#" Value="public TValue top ();" />
+      <MemberSignature Language="C#" Value="public ref TValue top ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !TValue top() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualC.StlClr.IStack`2.top" />
       <MemberSignature Language="VB.NET" Value="Public Function top () As TValue" />
@@ -223,21 +223,14 @@ For more information, see [stack::get\_container (STL/CLR)](/cpp/dotnet/stack-st
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>TValue@</ReturnType>
+      <ReturnValue RefType="Ref">
+        <ReturnType>TValue</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Accesses the last element of the container.</summary>
-        <returns>The last element of the controlled sequence, which must be non-empty.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- For more information, see [stack::top (STL/CLR)](/cpp/dotnet/stack-stl-clr#top).  
-  
- ]]></format>
-        </remarks>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="top_item">

@@ -1028,23 +1028,23 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
-        <AssemblyVersion>1.2.3.0</AssemblyVersion>
+        <AssemblyVersion>1.2.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue RefType="Readonly">
         <ReturnType>T</ReturnType>
         <Attributes>
-          <Attribute FrameworkAlternate="netcore-2.1">
+          <Attribute FrameworkAlternate="netcore-3.0">
             <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
           </Attribute>
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="index" Type="System.Int32" Index="0" FrameworkAlternate="netcore-2.1" />
+        <Parameter Name="index" Type="System.Int32" Index="0" FrameworkAlternate="netcore-3.0" />
       </Parameters>
       <Docs>
-        <param name="index">The zero-based index of the element to get a reference to.</param>
-        <summary>Gets a read-only reference to the element at the specified <paramref name="index" /> in the read-only list.</summary>
-        <returns>A read-only reference to the element at the specified <paramref name="index" /> in the read-only list.</returns>
+        <param name="index">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

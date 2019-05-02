@@ -158,7 +158,7 @@
       </Docs>
     </Member>
     <Member MemberName="at">
-      <MemberSignature Language="C#" Value="public TValue at (int _Pos);" />
+      <MemberSignature Language="C#" Value="public ref TValue at (int _Pos);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !TValue at(int32 _Pos) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualC.StlClr.IVector`1.at(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function at (_Pos As Integer) As TValue" />
@@ -170,28 +170,21 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>TValue@</ReturnType>
+      <ReturnValue RefType="Ref">
+        <ReturnType>TValue</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="_Pos" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="_Pos">The position of the element to access.</param>
-        <summary>Accesses an element at a specified position in the container.</summary>
-        <returns>The element of the controlled sequence at position <paramref name="_Pos" />.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- For more information, see [vector::at (STL/CLR)](/cpp/dotnet/vector-stl-clr#at).  
-  
- ]]></format>
-        </remarks>
+        <param name="_Pos">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="back">
-      <MemberSignature Language="C#" Value="public TValue back ();" />
+      <MemberSignature Language="C#" Value="public ref TValue back ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !TValue back() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualC.StlClr.IVector`1.back" />
       <MemberSignature Language="VB.NET" Value="Public Function back () As TValue" />
@@ -203,21 +196,14 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>TValue@</ReturnType>
+      <ReturnValue RefType="Ref">
+        <ReturnType>TValue</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Accesses the last element of the container.</summary>
-        <returns>The last element of the controlled sequence, which must be non-empty.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- For more information, see [vector::back (STL/CLR)](/cpp/dotnet/vector-stl-clr#back).  
-  
- ]]></format>
-        </remarks>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="back_item">
@@ -495,7 +481,7 @@ For more information, see [vector::erase (STL/CLR)](/cpp/dotnet/vector-stl-clr#e
       </Docs>
     </Member>
     <Member MemberName="front">
-      <MemberSignature Language="C#" Value="public TValue front ();" />
+      <MemberSignature Language="C#" Value="public ref TValue front ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !TValue front() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualC.StlClr.IVector`1.front" />
       <MemberSignature Language="VB.NET" Value="Public Function front () As TValue" />
@@ -507,21 +493,14 @@ For more information, see [vector::erase (STL/CLR)](/cpp/dotnet/vector-stl-clr#e
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>TValue@</ReturnType>
+      <ReturnValue RefType="Ref">
+        <ReturnType>TValue</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Accesses the first element of the container.</summary>
-        <returns>The first element of the controlled sequence, which must be non-empty.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- For more information, see [vector::front (STL/CLR)](/cpp/dotnet/vector-stl-clr#front).  
-  
- ]]></format>
-        </remarks>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="front_item">

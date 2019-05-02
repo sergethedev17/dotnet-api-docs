@@ -974,30 +974,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="OnPreviewMouseLeftButtonDown">
-      <MemberSignature Language="C#" Value="protected override void OnPreviewMouseLeftButtonDown (System.Windows.Input.MouseButtonEventArgs e);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnPreviewMouseLeftButtonDown(class System.Windows.Input.MouseButtonEventArgs e) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Activities.Presentation.View.ExpressionTextBox.OnPreviewMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)" />
-      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnPreviewMouseLeftButtonDown (e As MouseButtonEventArgs)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnPreviewMouseLeftButtonDown(System::Windows::Input::MouseButtonEventArgs ^ e);" />
-      <MemberSignature Language="F#" Value="override this.OnPreviewMouseLeftButtonDown : System.Windows.Input.MouseButtonEventArgs -&gt; unit" Usage="expressionTextBox.OnPreviewMouseLeftButtonDown e" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Activities.Presentation</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="e" Type="System.Windows.Input.MouseButtonEventArgs" Index="0" FrameworkAlternate="netframework-4.0" />
-      </Parameters>
-      <Docs>
-        <param name="e">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="OnPreviewMouseRightButtonDown">
       <MemberSignature Language="C#" Value="protected override void OnPreviewMouseRightButtonDown (System.Windows.Input.MouseButtonEventArgs e);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnPreviewMouseRightButtonDown(class System.Windows.Input.MouseButtonEventArgs e) cil managed" />

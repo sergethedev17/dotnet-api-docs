@@ -158,7 +158,7 @@
       </Docs>
     </Member>
     <Member MemberName="back">
-      <MemberSignature Language="C#" Value="public TValue back ();" />
+      <MemberSignature Language="C#" Value="public ref TValue back ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !TValue back() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualC.StlClr.IList`1.back" />
       <MemberSignature Language="VB.NET" Value="Public Function back () As TValue" />
@@ -170,21 +170,14 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>TValue@</ReturnType>
+      <ReturnValue RefType="Ref">
+        <ReturnType>TValue</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Accesses the last element of the container.</summary>
-        <returns>The last element of the controlled sequence, which must be non-empty.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- For more information, see [list::back (STL/CLR)](/cpp/dotnet/list-stl-clr#back).  
-  
- ]]></format>
-        </remarks>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="back_item">
@@ -432,7 +425,7 @@ For more information, see [list::erase (STL/CLR)](/cpp/dotnet/list-stl-clr#erase
       </Docs>
     </Member>
     <Member MemberName="front">
-      <MemberSignature Language="C#" Value="public TValue front ();" />
+      <MemberSignature Language="C#" Value="public ref TValue front ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !TValue front() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualC.StlClr.IList`1.front" />
       <MemberSignature Language="VB.NET" Value="Public Function front () As TValue" />
@@ -444,21 +437,14 @@ For more information, see [list::erase (STL/CLR)](/cpp/dotnet/list-stl-clr#erase
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>TValue@</ReturnType>
+      <ReturnValue RefType="Ref">
+        <ReturnType>TValue</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Accesses the first element of the container.</summary>
-        <returns>The first element of the controlled sequence, which must be non-empty.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- For more information, see [list::front (STL/CLR)](/cpp/dotnet/list-stl-clr#front).  
-  
- ]]></format>
-        </remarks>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="front_item">

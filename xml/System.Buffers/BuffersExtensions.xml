@@ -33,9 +33,11 @@
       <MemberSignature Language="F#" Value="static member CopyTo :  * Span&lt;'T&gt; -&gt; unit" Usage="System.Buffers.BuffersExtensions.CopyTo (source, destination)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
         <AssemblyName>System.Memory</AssemblyName>
-        <AssemblyVersion>4.0.1.0</AssemblyVersion>
-        <AssemblyVersion>4.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -44,20 +46,20 @@
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="source" Type="System.Buffers.ReadOnlySequence&lt;T&gt;" RefType="this">
+        <Parameter Name="source" Type="System.Buffers.ReadOnlySequence&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="netstandard-2.1">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="netstandard-2.1">
               <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
-        <Parameter Name="destination" Type="System.Span&lt;T&gt;" />
+        <Parameter Name="destination" Type="System.Span&lt;T&gt;" Index="1" FrameworkAlternate="netstandard-2.1" />
       </Parameters>
       <Docs>
-        <typeparam name="T">The type of the items in the <see cref="T:System.Buffers.ReadOnlySequence`1" />.</typeparam>
-        <param name="source">The source <see cref="T:System.Buffers.ReadOnlySequence`1" />.</param>
-        <param name="destination">The destination <see cref="T:System.Span`1" />.</param>
-        <summary>Copies the <see cref="T:System.Buffers.ReadOnlySequence`1" /> to the specified <see cref="T:System.Span`1" />.</summary>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="source">To be added.</param>
+        <param name="destination">To be added.</param>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -70,9 +72,11 @@
       <MemberSignature Language="F#" Value="static member PositionOf :  * 'T -&gt; Nullable&lt;SequencePosition&gt; (requires 'T :&gt; IEquatable&lt;'T&gt;)" Usage="System.Buffers.BuffersExtensions.PositionOf (source, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
         <AssemblyName>System.Memory</AssemblyName>
-        <AssemblyVersion>4.0.1.0</AssemblyVersion>
-        <AssemblyVersion>4.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.SequencePosition&gt;</ReturnType>
@@ -85,21 +89,21 @@
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="source" Type="System.Buffers.ReadOnlySequence&lt;T&gt;" RefType="this">
+        <Parameter Name="source" Type="System.Buffers.ReadOnlySequence&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="netstandard-2.1">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="netstandard-2.1">
               <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
-        <Parameter Name="value" Type="T" />
+        <Parameter Name="value" Type="T" Index="1" FrameworkAlternate="netstandard-2.1" />
       </Parameters>
       <Docs>
-        <typeparam name="T">The type of the items in the <see cref="T:System.Buffers.ReadOnlySequence`1" />.</typeparam>
-        <param name="source">The source <see cref="T:System.Buffers.ReadOnlySequence`1" />.</param>
-        <param name="value">The item to find in the <see cref="T:System.Buffers.ReadOnlySequence`1" />.</param>
-        <summary>Returns the position of the first occurrence of <paramref name="item" /> in the <see cref="T:System.Buffers.ReadOnlySequence`1" />.</summary>
-        <returns>An object whose <see cref="M:System.SequencePosition.GetInteger" /> method returns the position of the first occurrence of <paramref name="item" />, or an object whose <see langword="Nullable&lt;SequencePosition&gt;.HasValue" /> property is <see langword="false" /> .</returns>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="source">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -112,9 +116,11 @@
       <MemberSignature Language="F#" Value="static member ToArray :  -&gt; 'T[]" Usage="System.Buffers.BuffersExtensions.ToArray sequence" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
         <AssemblyName>System.Memory</AssemblyName>
-        <AssemblyVersion>4.0.1.0</AssemblyVersion>
-        <AssemblyVersion>4.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T[]</ReturnType>
@@ -123,19 +129,19 @@
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="sequence" Type="System.Buffers.ReadOnlySequence&lt;T&gt;" RefType="this">
+        <Parameter Name="sequence" Type="System.Buffers.ReadOnlySequence&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="netstandard-2.1">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="netstandard-2.1">
               <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
       </Parameters>
       <Docs>
-        <typeparam name="T">The type of the items in the <see cref="T:System.Buffers.ReadOnlySequence`1" />.</typeparam>
-        <param name="sequence">The read-only sequence to convert to an array.</param>
-        <summary>Converts the <see cref="T:System.Buffers.ReadOnlySequence`1" /> to an array.</summary>
-        <returns>An array containing the data in the current read-only sequence.</returns>
+        <typeparam name="T">To be added.</typeparam>
+        <param name="sequence">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

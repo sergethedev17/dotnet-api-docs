@@ -481,7 +481,7 @@ Instead of calling the <xref:System.Span%601.GetEnumerator%2A> method directly, 
       </Docs>
     </Member>
     <Member MemberName="GetPinnableReference">
-      <MemberSignature Language="C#" Value="public T GetPinnableReference ();" />
+      <MemberSignature Language="C#" Value="public ref T GetPinnableReference ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !T GetPinnableReference() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Span`1.GetPinnableReference" />
       <MemberSignature Language="VB.NET" Value="Public Function GetPinnableReference () As T" />
@@ -492,25 +492,26 @@ Instead of calling the <xref:System.Span%601.GetEnumerator%2A> method directly, 
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Memory</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <Attributes>
         <Attribute>
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
-      <ReturnValue>
-        <ReturnType>T@</ReturnType>
+      <ReturnValue RefType="Ref">
+        <ReturnType>T</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Returns a reference to the element of the <see cref="T:System.Span`1" /> at index zero.</summary>
-        <returns>A reference to the element of the <see cref="T:System.Span`1" /> at index zero, or <see langword="null" /> if <see cref="M:System.Span`1.IsEmpty" /> is  <see langword="true" />. </returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-
-The `GetPinnableReference` method returns a [ref struct](~/docs/csharp/reference-semantics-with-value-types.md#ref-struct-type). It can be used for pinning a <xref:System.Span%601> in memory. It is required to support the use of a <xref:System.Span%601> within a [fixed](~/docs/csharp/language-reference/keywords/fixed-statement.md) statement.
-
-       ]]></format>
-        </remarks>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="IsEmpty">
